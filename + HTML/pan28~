@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Pan:D</title>
+<link rel="stylesheet" href="tema/apecto.css"
+<head/>
+
+<frameset cols="250,100%">
+<frame name="indice"src="INDICE2">
+<frame src="pan16">
+<noframes>
+<p>Si tu navegador no acepta frames, estarás viendo este mensaje. ¡Lo sentimos!</p>
+</noframes>
+
+<body>
+<hr style="border:20px;"><hr style="border:20px;"><table width="100%" border="1" bordercolor="#0000FF" cellspacing="10" cellpadding="10"></table>
+<table width="100%" border="2" bordercolor="#000000" cellspacing="10" cellpadding="10">
+<tr valign="top"><p align="center">El todopoderoso mundo del Pan</p></tr>
+</table>
+<hr style="border:15px;"><hr style="border:2px;">
+<p align="left">¿Qué es el pan?El concepto de pan procede del vocablo latino panis. Así se llama al producto alimenticio que, por lo general, se elabora con agua, levadura y harina y se cocina en un horno. ... El maíz, la cebada y el centeno son otros cereales que pueden usarse en lugar de la harina de trigo.
+</p>
+<p align="left"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Assorted_bread.jpg" width="400" height="400"></p>
+<p align="left"><a href="https://www.como-se-escribe.com/pan-o-pan/">PAN</a></p>
+</frameset>
+</body>
+</html>

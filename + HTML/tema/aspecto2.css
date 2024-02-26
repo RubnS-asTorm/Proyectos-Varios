@@ -1,0 +1,20 @@
+body{
+ background-color: #BE8D00;
+}
+h1{
+text-align: 
+color: #ee4;
+font-size: 22px;}
+ul{
+list-style-type: none;
+}
+li{
+background-color: #BE8D00;
+width: 120px;
+height: 60px;
+border:1px solid #333
+padding:15px 30px;
+}
+p{
+align-content: center;
+}

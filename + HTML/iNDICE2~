@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<link rel="stylesheet" href="tema/aspecto2.css"
+<head/>
+<table width="100%" border="2" bordercolor="#000000" cellspacing="10" cellpadding="10">
+<tr valign="top"><p align="center">INDICE</p></tr>
+</table>
+<ul>
+ <li type="square"> 
+  <a href="PAN1.html">pan1</a>
+ </li>
+ <li type="square"> 
+   <a href="pan1.html">pan2</a>
+ </li>
+ <li type="square"> 
+  <a href="pan1.html">pan3</a>
+ </li>
+ <li type="square"> 
+  <a href="pan1.html">pan4</a>
+ </li>
+</ul>
+</body>
+</html>
