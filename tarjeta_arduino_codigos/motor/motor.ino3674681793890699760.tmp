@@ -1,0 +1,48 @@
+# define Motor 3
+# define EchoPin 
+# define TriggerPin 
+int velocidad;
+int EchoPin=3;
+int TriggerPin=5;
+int Distancia;
+
+void setup() {
+  
+Serial.begin(9600);
+pinMode (Motor, OUTPUT); 
+pinMode(TriggerPin, OUTPUT);
+pinMode(EchoPin, INPUT);
+}
+void loop() {
+  int Limite = 25;
+analogWrite (Motor, velocidad);
+long duracion, distanciaCm; 
+
+digitalWrite(TriggerPin, HIGH);
+delayMicroseconds(2);
+
+digitalWrite(TriggerPin, HIGH); 
+delayMicroseconds(10);
+
+digitalWrite(TriggerPin, LOW);
+ 
+duracion = pulseIn(EchoPin, HIGH);
+Distancia = duracion * 10 / 292 / 2;
+
+int velocidad = map (Distancia, 0, 1024, 0, 255);
+analogWrite (3, velocidad);
+Serial.println(String(distancia) + " cm. ");
+Serial.println(velocidad);
+
+
+
+if (Distancia < Limite){
+
+analogWrite (3, velocidad);
+}
+else{
+
+analogWrite (3, 250);
+ 
+}
+}

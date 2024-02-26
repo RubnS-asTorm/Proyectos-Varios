@@ -1,0 +1,14 @@
+# define Pot 0
+# define Base 3
+int potRead;
+void setup() {
+Serial.begin(9600);
+
+ pinMode (Base, OUTPUT);
+}
+void loop() {
+ potRead = analogRead (Pot);
+ int velocidad = map (potRead, 0, 1024, 0, 255);
+ analogWrite (Base, velocidad);
+ Serial.println(velocidad);
+}
